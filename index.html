@@ -6,41 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Reset CSS: normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
-    <link rel="stylesheet" href="./css/bass.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./assets/css/bass.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap" rel="stylesheet">
     <title>BONFIRE Jewelry</title>
 </head>
 <body>
     <div class="app">
         <header class="header">
+            <div>
+                <img class="header__logo" src="./assets/img/Header/logo.png">
+                <img class="header__img" src="./assets/img/Header/BackgroundHeader.png">
+            </div>
             <nav class="header__navbar">
-                <ul class="header__navber-list">
-                    <li class="header__navber-icon">Shop</li>
-                    <li class="header__navber-icon">Menu</li>
+                <ul class="header__navbar-icon">
+                    <a class="header__navbar-item" href="#">Shop</a>
+                    <a class="header__navbar-item" href="#">Menu</a>
                 </ul>
 
                 <ul class="header__navbar-social">
-                    <li class="header__navbar-item">
-                        <a href="#">Facebook</a>
+                    <li>
+                        <a class="header__navbar-link" href="#">Facebook</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="#">Twitter</a>
+                    <li>
+                        <a class="header__navbar-link" href="#">Twitter</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="#">Instagram</a>
+                    <li>
+                        <a class="header__navbar-link" href="#">Instagram</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="#">Youtube</a>
+                    <li>
+                        <a class="header__navbar-link" href="#">Youtube</a>
                     </li>
                 </ul>
-
             </nav>
+
+            <button class="header__button">DISCOVER NOW</button>
         </header>
 
-        <div class="container">
+        <div class="content">
+            <div class="announcement">
+                <div class="announcement__element">
+                    <h3>FREE SHIPPING</h3>
+                    <p>All order over $300</p>
+                </div>
+                <div class="announcement__element">
+                    <h3>FREE SHIPPING</h3>
+                    <p>All order over $300</p>
+                </div>
+                <div class="announcement__element">
+                    <h3>FREE SHIPPING</h3>
+                    <p>All order over $300</p>
+                </div>
+            </div>
 
+            <div class="content__quote">
+                <p>
+                    It started with a simple idea: Create quality, well-designed
+                    <br>products that I wanted myself.
+                </p>
+            </div>
+
+            <div class="content__news">
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/1.png">
+                </a>
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/2.png">
+                </a>
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/3.png">
+                </a>
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/4.png">
+                </a>
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/5.png">
+                </a>
+                <a class="news__element" href="#">
+                    <img src="./assets/img/Content/6.png">
+                </a>
+            </div>
+
+            <div class="featured"></div>
+            <div class="blog"></div>
+            <div class="brand"></div>
         </div>
+        
         <footer class="footer">
 
         </footer>
